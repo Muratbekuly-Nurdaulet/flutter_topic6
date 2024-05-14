@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/register_form_page.dart';
+import 'package:flutter_topic6/pages/register_form_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,11 +8,9 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
